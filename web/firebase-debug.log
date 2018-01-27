@@ -1,0 +1,50 @@
+[debug] [2018-01-27T11:56:53.639Z] ----------------------------------------------------------------------
+[debug] [2018-01-27T11:56:53.643Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-27T11:56:53.644Z] CLI Version:   3.17.4
+[debug] [2018-01-27T11:56:53.644Z] Platform:      win32
+[debug] [2018-01-27T11:56:53.644Z] Node Version:  v6.11.5
+[debug] [2018-01-27T11:56:53.645Z] Time:          Sat Jan 27 2018 17:26:53 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:56:53.645Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-27T11:56:53.678Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-27T11:56:53.679Z] > authorizing via signed-in user
+[debug] [2018-01-27T11:56:53.682Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-27T11:56:53.683Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/DvIWQxJlUhbtOLhqpznLpD1VU0Ia32uDTp_m9n2MES8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Jan 27 2018 17:26:53 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:56:53.941Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-27T11:56:53.962Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ivp-edm-dude  
+  
+ Sat Jan 27 2018 17:26:53 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:56:55.347Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-27T11:56:55.349Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ivp-edm-dude/tokens  
+  
+ Sat Jan 27 2018 17:26:55 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:56:56.337Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\IVPEDM_Dude\friendlychat-web\web'...
+[info] 
+[debug] [2018-01-27T11:56:56.349Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ivp-edm-dude  
+  
+ Sat Jan 27 2018 17:26:56 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:56:57.888Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-27T11:56:57.889Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/772955830686/clients/_:getWebAppConfig  
+  
+ Sat Jan 27 2018 17:26:57 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:56:59.221Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-01-27T11:56:59.284Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ivp-edm-dude  
+  
+ Sat Jan 27 2018 17:26:59 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:57:00.728Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-27T11:57:00.729Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/772955830686/clients/_:getWebAppConfig  
+  
+ Sat Jan 27 2018 17:27:00 GMT+0530 (India Standard Time)
+[debug] [2018-01-27T11:57:02.301Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5004
+
